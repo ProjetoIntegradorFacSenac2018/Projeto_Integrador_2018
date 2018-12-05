@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="864.0" prefWidth="1035.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="janelasfxml.FXMLjanelaPrincipalController">
+   <children>
+      <HBox prefHeight="864.0" prefWidth="1035.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox minHeight="864.0" minWidth="233.0" prefHeight="864.0" prefWidth="255.0" style="-fx-background-color: #356600;" HBox.hgrow="NEVER">
+               <children>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="212.0" prefWidth="230.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="27.0" layoutY="4.0" text="Projeto Integrador 2018">
+                           <font>
+                              <Font name="Century" size="16.0" />
+                           </font>
+                           <effect>
+                              <Reflection />
+                           </effect>
+                        </Label>
+                        <ImageView fitHeight="152.0" fitWidth="199.0" layoutX="12.0" layoutY="60.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Logo.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="474.0" prefWidth="273.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Button fx:id="butCliente" alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleClicks" prefHeight="42.0" prefWidth="234.0" stylesheets="@Style.css" text="Cadastrar Cliente">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/icons8_Person_32px.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <padding>
+                              <Insets left="30.0" />
+                           </padding>
+                        </Button>
+                        <Button fx:id="butProduto" alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutY="56.0" mnemonicParsing="false" onAction="#handleClicks" prefHeight="42.0" prefWidth="234.0" stylesheets="@Style.css" text="Cadastrar Produto">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/icons8_Box_32px.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <padding>
+                              <Insets left="30.0" />
+                           </padding>
+                        </Button>
+                        <Button fx:id="butRegVenda" alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutY="98.0" mnemonicParsing="false" onAction="#outroBotao" prefHeight="42.0" prefWidth="234.0" stylesheets="@Style.css" text="Pesquisar">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/icons8_Search_52px.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <padding>
+                              <Insets left="30.0" />
+                           </padding>
+                        </Button>
+                        <Button fx:id="butRegVenda" alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutY="140.0" mnemonicParsing="false" onAction="#handleClicks" prefHeight="42.0" prefWidth="234.0" stylesheets="@Style.css" text="Registro de Vendas e Clientes">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/icons8_Person_32px.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <padding>
+                              <Insets left="30.0" />
+                           </padding>
+                        </Button>
+                        <Button fx:id="butBut" alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutY="182.0" mnemonicParsing="false" onAction="#handleClicks" prefHeight="42.0" prefWidth="234.0" stylesheets="@Style.css" text="butao">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/icons8_Person_32px.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <padding>
+                              <Insets left="30.0" />
+                           </padding>
+                        </Button>
+                        <Button fx:id="butBut" alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutY="224.0" mnemonicParsing="false" onAction="#outroBotao" prefHeight="42.0" prefWidth="234.0" stylesheets="@Style.css" text="butao">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/icons8_Person_32px.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <padding>
+                              <Insets left="30.0" />
+                           </padding>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="178.0" prefWidth="230.0">
+                     <children>
+                        <Button fx:id="butSair" alignment="BASELINE_LEFT" graphicTextGap="15.0" layoutY="88.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#encerraPrograma" prefHeight="42.0" prefWidth="234.0" stylesheets="@Style.css" text="Sair">
+                           <graphic>
+                              <ImageView fitHeight="34.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/icons8_Sign_Out_32px.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <padding>
+                              <Insets left="30.0" />
+                           </padding>
+                        </Button>
+                        <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="145.0" prefHeight="17.0" prefWidth="218.0">
+                           <effect>
+                              <Glow />
+                           </effect>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children>
+            </VBox>
+            <AnchorPane fx:id="rootPane" minHeight="864.0" minWidth="799.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="864.0" prefWidth="799.0" style="-fx-background-image: #e6e6e6;" HBox.hgrow="NEVER" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

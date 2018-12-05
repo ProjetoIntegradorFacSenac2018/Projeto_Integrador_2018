@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane fx:id="pnlCliente" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="864.0" prefWidth="826.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="janelasfxml.FXMLjanelaPrincipalController">
+   <children>
+      <VBox prefHeight="494.0" prefWidth="823.0" style="-fx-background-color: #e6e6e6;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="90.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="309.0" layoutY="23.0" text="Cadastrar Cliente">
+                     <font>
+                        <Font name="Century" size="24.0" />
+                     </font>
+                     <effect>
+                        <Reflection />
+                     </effect>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane prefHeight="342.0" prefWidth="823.0" VBox.vgrow="SOMETIMES">
+               <children>
+                  <TextField layoutX="56.0" layoutY="67.0" prefHeight="25.0" prefWidth="389.0" style="-fx-background-color: #b3b3b3;" />
+                  <TextField layoutX="57.0" layoutY="140.0" prefHeight="25.0" prefWidth="166.0" style="-fx-background-color: #b3b3b3;" />
+                  <TextField layoutX="550.0" layoutY="68.0" prefHeight="25.0" prefWidth="194.0" style="-fx-background-color: #b3b3b3;" />
+                  <Label layoutX="57.0" layoutY="40.0" prefHeight="20.0" prefWidth="47.0" text="Nome">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="56.0" layoutY="109.0" prefHeight="20.0" prefWidth="68.0" text="Telefone">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="550.0" layoutY="41.0" prefHeight="20.0" prefWidth="68.0" text="CPF">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="418.0" layoutY="143.0" prefHeight="25.0" prefWidth="334.0" style="-fx-background-color: #b3b3b3;" />
+                  <Label layoutX="417.0" layoutY="112.0" prefHeight="20.0" prefWidth="68.0" text="Endereço">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="422.0" layoutY="224.0" prefHeight="25.0" prefWidth="166.0" style="-fx-background-color: #b3b3b3;" />
+                  <Label layoutX="421.0" layoutY="193.0" prefHeight="20.0" prefWidth="68.0" text="Bairro">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextFlow layoutX="56.0" layoutY="181.0" prefHeight="137.0" prefWidth="334.0" />
+                  <ComboBox layoutX="223.0" layoutY="140.0" prefHeight="25.0" prefWidth="110.0" promptText="Escolha fone" style="-fx-background-color: #b3b3b3;" />
+                  <TextField layoutX="602.0" layoutY="224.0" prefHeight="25.0" prefWidth="166.0" style="-fx-background-color: #b3b3b3;" />
+                  <Label layoutX="602.0" layoutY="193.0" prefHeight="20.0" prefWidth="68.0" text="Cidade">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="423.0" layoutY="299.0" prefHeight="25.0" prefWidth="166.0" style="-fx-background-color: #b3b3b3;" />
+                  <Label layoutX="422.0" layoutY="268.0" prefHeight="20.0" prefWidth="68.0" text="NoNono">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="602.0" layoutY="296.0" prefHeight="25.0" prefWidth="47.0" style="-fx-background-color: #b3b3b3;" />
+                  <Label layoutX="602.0" layoutY="265.0" prefHeight="20.0" prefWidth="68.0" text="U.F.">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="333.0" layoutY="140.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="47.0" style="-fx-background-color: #b3b3b3;" text="Set" />
+               </children>
+            </Pane>
+            <Button fx:id="butSalvar" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#ButaoSalvarCadCliente" prefHeight="62.0" prefWidth="823.0" stylesheets="@Style.css" text="Salvar">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
